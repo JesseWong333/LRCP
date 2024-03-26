@@ -1,5 +1,3 @@
-# 创建flow标记
-# 历史帧要投影到每一个 ego
 
 import pickle
 import numpy as np
@@ -33,8 +31,6 @@ def vis_point_track(points_tracks, lidars, path):
     # rgbs is S, C, H, W
     
     S = len(lidars)  
-    # 不同点的数量不一样多， 我是靠原始的点来表明是哪一个点的； 原来是只要一帧丢失就全部丢失
-    # 转化为直接查询结构 {"原始点Hash+帧": 点} 这样定位的时候就可以直接查找
     point_hash = {}
     for one_box_track in points_tracks.values():
         if len(one_box_track) == 0:
@@ -85,7 +81,6 @@ def scale_boxes(box):
     # boxes: 4, 2
     # scale_y = 100 / (40*2)
     # scale_x = 252 / (100.8*2)
-    # 转换之后是以左下为原点的！！
     scale_y = bev_shape[0] / (pc_range[4] - pc_range[1])
     scale_x = bev_shape[1] / (pc_range[3] - pc_range[0])
 

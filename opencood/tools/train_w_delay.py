@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-# Author: Runsheng Xu <rxx3386@ucla.edu>, Yifan Lu <yifan_lu@sjtu.edu.cn>
+# Author: Runsheng Xu <rxx3386@ucla.edu>, Yifan Lu <yifan_lu@sjtu.edu.cn>, Junjie Wang <junjie.wang@umu.se>
 # License: TDG-Attribution-NonCommercial-NoDistrib
-# modified by Junjie Wang <junjie.wang@umu.se>
 
 import argparse
 import os

@@ -79,7 +79,7 @@ python opencood/tools/train_w_delay.py --hypes_yaml ./opencood/hypes_yaml/v2xsim
 
 #### Evaluatin
 ``` bash
-python opencood/tools/inference_w_delay.py  --model_dir, ./opencood/logs/your_log_path, --fusion_method, intermediate
+python opencood/tools/inference_w_delay.py  --model_dir ./opencood/logs/your_log_path, --fusion_method intermediate
 ```
 
 
