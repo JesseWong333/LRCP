@@ -7,7 +7,7 @@ Abstract: We propose a Latency Robust Cooperative Perception framework, named LR
 </div>
 
 # Installation
-This repository is based on [OpendCood.](https://opencood.readthedocs.io/en/latest/md_files/installation.html), please also refer the docments to install.
+This repository is based on [OpendCood.](https://opencood.readthedocs.io/en/latest/md_files/installation.html), please also refer the documents to install.
 ### prepare environment
 ```bash
 # you may change the version based on your system
