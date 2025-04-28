@@ -1,4 +1,4 @@
-# Latency Robust Cooperative Perception using Asynchronous Feature Fusion
+# Latency Robust Cooperative Perception using Asynchronous Feature Fusion(WACV2025)
 
 Abstract: We propose a Latency Robust Cooperative Perception framework, named LRCP, to compensate for the effect of temporal asynchrony. The intuition of LRCP is to directly fuse asynchronous bird’s-eye view (BEV) features instead of estimating aligned features. To achieve this, we first propose a novel flow prediction module that uses cached past BEV features to predict the flow with a non-discrete time delay at the BEV feature level. Then, the predicted flow is employed to guide the spatial sampling location of interests. Our approach substantially enhances the robustness of temporal asynchronous cooperative perception.
 
@@ -86,4 +86,16 @@ python opencood/tools/inference_w_delay.py  --model_dir ./opencood/logs/your_log
 ## Acknowlege
 
 This project is impossible without the code of [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD), [CoAlign](https://github.com/yifanlu0227/CoAlign), [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR).
+
+### Citation
+```bibtex
+@inproceedings{wang2025latency,
+  title={Latency Robust Cooperative Perception Using Asynchronous Feature Fusion},
+  author={Wang, Junjie and Nordstr{\"o}m, Tomas},
+  booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  pages={1--10},
+  year={2025},
+  organization={IEEE}
+}
+```
 
