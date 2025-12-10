@@ -83,7 +83,7 @@ python opencood/tools/inference_w_delay.py  --model_dir ./opencood/logs/your_log
 ```
 
 ### FAQ
-1. If you want plan to reproduce the results on dair-V2X, please can download flow files from
+1. If you want plan to reproduce the results on dair-V2X, you can download flow files from
 https://drive.google.com/file/d/1GSQ-Un8zWw6Fyt1gs3vjm5iQuyCTpjb4/view?usp=share_link
 
 ## Acknowlege
