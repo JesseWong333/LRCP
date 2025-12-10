@@ -82,6 +82,9 @@ python opencood/tools/train_w_delay.py --hypes_yaml ./opencood/hypes_yaml/v2xsim
 python opencood/tools/inference_w_delay.py  --model_dir ./opencood/logs/your_log_path, --fusion_method intermediate
 ```
 
+### FAQ
+1. If you want plan to reproduce the results on dair-V2X, please can download flow files from
+https://drive.google.com/file/d/1GSQ-Un8zWw6Fyt1gs3vjm5iQuyCTpjb4/view?usp=share_link
 
 ## Acknowlege
 
