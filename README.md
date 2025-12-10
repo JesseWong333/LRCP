@@ -86,6 +86,8 @@ python opencood/tools/inference_w_delay.py  --model_dir ./opencood/logs/your_log
 1. If you want plan to reproduce the results on dair-V2X, you can download flow files from
 https://drive.google.com/file/d/1GSQ-Un8zWw6Fyt1gs3vjm5iQuyCTpjb4/view?usp=share_link
 
+2. By removing the manual filtering ( https://github.com/JesseWong333/LRCP/blob/main/opencood/data_utils/post_processor/voxel_postprocessor.py#L372 ), you can get slightly better results as reported in our paper. We keep the filtering code to make sure the results is consistent with other papers.
+
 ## Acknowlege
 
 This project is impossible without the code of [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD), [CoAlign](https://github.com/yifanlu0227/CoAlign), [Deformable DETR](https://github.com/fundamentalvision/Deformable-DETR).
